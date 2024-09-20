@@ -1,0 +1,28 @@
+edad = 50
+Nombre = "Juan"
+peso = 60.50
+Casado = True
+
+print('####Valores iniciales####')
+print(Casado)
+print(edad, "KG")
+print(peso)
+print(Nombre)
+
+print("###Valores modificados####")
+edad = 55 # int
+Nombre = "Juanito"
+peso = 60.547 #float
+Casado = False #bool
+print(Casado)
+print(edad, "KG")
+print(peso)
+print(Nombre)
+
+print('######Cambio de tipo de variable#####')
+edad = 'cien' #string
+print(edad)
+
+# None, ausencia de valor
+direccion = None
+print('Dirección:',direccion)
