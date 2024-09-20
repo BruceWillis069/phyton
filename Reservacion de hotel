@@ -1,0 +1,25 @@
+#Reservacion de hoteles 
+
+print("######## Reservacion de Hotel #########")
+
+
+cliente = 'John marston'
+estacia = 4
+tarifa = 1200.45
+vista_al_mar= True
+
+print('Cliente:',cliente)
+print('Dias de estacia:',estacia, 'dias')
+print('Tarifa:',tarifa, '$')
+print('Tiene vista al mar:',vista_al_mar)
+
+print('####Modificacion de el cuarto######')
+cliente = 'Arthur Morgan'
+estacia = 5
+tarifa = 800
+vista_al_mar=  False
+
+print('Cliente:',cliente)
+print('Dias de estacia:',estacia, 'dias')
+print('Tarifa:',tarifa, '$')
+print('Tiene vista al mar:',vista_al_mar)
