@@ -1,0 +1,29 @@
+#Sistema de tienda Online
+
+import math
+
+
+producto = 'cereal'
+precio = 45.52
+producto_en_inventario= 20
+disp=True
+
+print('########Sistema de tienda Online#######')
+print('Producto:',producto)
+print('Precio:',precio,'$')
+print('Cantidad en el inventario',producto_en_inventario)
+print('Disponibilidad:',disp)
+
+producto = 'skibidi toilet'
+precio = 405
+producto_en_inventario= 25
+disp=False
+
+print('#######  Modificaciones del mercado  ########')
+print('Producto:',producto)
+print('Precio:',precio,'$')
+print('Cantidad en el inventario',producto_en_inventario)
+print('Disponibilidad:',disp)
+
+
+print('valor de pi:',math.nan)
